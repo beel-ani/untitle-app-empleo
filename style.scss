@@ -1,0 +1,51 @@
+div{
+   width: 160px;
+   height: 80px;
+   padding:10px;
+   background: $primary;
+
+}
+.container1{
+    box-sizing: box{
+    /*background-*/color:$primary;
+    /*padding-*/bottom: $accent;
+}
+}
+.container2{
+    box-sizing: box{
+    color: $primary;
+    bottom: $accent;
+    }
+}
+.container3{
+    box-sizing: /*content-*/box{
+    color:$primary;
+    bottom: $accent;
+    }
+}
+.back-ground{
+    background-color: $warn;
+}
+h1, h5{
+    color:$warn;
+}
+.btn {
+    color:$accent;
+    margin: auto {
+      bottom: 10px;
+      top: 2px;
+      radius: 20px
+    }
+  }
+  
+  
+  $primary: #138673a8;
+  $accent: #2ab6aa;
+  $warn: #afafaf;
+  
+  :root {
+    --primary: #{$primary};
+    --accent: #{$accent};
+    --warn: #{$warn};
+
+  }
